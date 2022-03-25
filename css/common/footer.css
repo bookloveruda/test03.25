@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.footer{
+  background-color: #000;
+  margin: 50px 0;
+}
+.footer .inner-footer{
+  display: flex;
+  justify-content: center;
+}
+.footer .inner-footer .fcon{
+  /* background-color: #f00; */
+  flex: 0 1 1400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

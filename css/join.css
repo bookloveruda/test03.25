@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import url(./common/reset.css);
+@import url(./common/header.css);
+@import url(./common/footer.css);
+
+
+.container{}
+.container .inner-container{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 100px;
+}
+.container .inner-container .sign-up{
+  flex: 0 1 1400px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgb(201, 201, 201);
+  padding: 80px 300px; 
+}
+.container .inner-container .sign-up h1.title{
+  line-height: 100px;
+  text-align: left;
+  padding: 0 10px;
+}
+.container .inner-container .sign-up .sign-up-form{}
+.container .inner-container .sign-up .sign-up-form form{}
+.container .inner-container .sign-up .sign-up-form form ul{}
+.container .inner-container .sign-up .sign-up-form form ul>li{
+  padding: 20px 0;
+}
+.container .inner-container .sign-up .sign-up-form form ul>li.li1 input{
+  width: 100%;
+  line-height: 40px;
+  display: block;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.container .inner-container .sign-up .sign-up-form form ul>li.li1 input:focus{
+  background-color: #000;
+  color: #fff;
+}
+.container .inner-container .sign-up .sign-up-form form ul>li.li2 input{
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+.container .inner-container .sign-up .sign-up-form form ul>li.li2 input:hover{
+  background-color: #fff;
+  color: #000;
+}
